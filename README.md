@@ -2,7 +2,7 @@
 
 
 ## Description
-TRACE (TRack Analysis for Customized Exploration) is a project aimed at leveraging audio track features from Spotify to gain insights into my listening profile and predict new matching tracks to create personalized playlists similar to Spotify's "Discover Weekly". It uses dimensionality reduction techniques (UMAP: Uniform Manifold Approximation and Projection) and clustering algorithms (HDBSCAN: Hierarchical Density-Based Spatial Clustering of Applications with Noise) to analyze audio features and metadata extracted from my personal music libraries (local MP3 files and Spotify playlist), and predicts new matching tracks based on a Random Forest Classifier.
+TRACE (TRack Analysis for Customized Exploration) is a project aimed at leveraging audio track features from Spotify to gain insights into my listening profile and predict new matching tracks to create personalized playlists. It uses a dimensionality reduction technique (UMAP: Uniform Manifold Approximation and Projection) and clustering algorithm (HDBSCAN: Hierarchical Density-Based Spatial Clustering of Applications with Noise) to analyze audio features and metadata extracted from my personal music libraries (local MP3 files and Spotify playlist), and predicts new matching tracks based on a Random Forest Classifier.
 
 
 ## Background

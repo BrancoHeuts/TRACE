@@ -31,6 +31,76 @@ Here, I present a project which I can structure into five parts:
 5. main.py
    - Executes functionality of previous 4 scripts, and adds new tracks that are predicted to match my recent listening profile to a new personal ‘Weekly Discover’ Spotify playlist.
 
+## Download and Installation
+
+To download and install the TRACE package from GitHub, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/brancoheuts/TRACE.git
+    ```
+
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd TRACE
+    ```
+
+3. Install the package using pip:
+
+    ```bash
+    pip install .
+    ```
+
+   This will install all the necessary dependencies specified in the `setup.py` file.
+
+
+4. Navigate to the package directory:
+
+    ```bash
+    cd TRACE
+    ```
+
+
+## Spotify API Initialization
+
+Before running the script, initialize the Spotify API by providing your credentials in an .env file:
+1. Create an ".env" file
+2. Add your own credentials (CLIENT_ID & CLIENT_SECRET):
+
+    ```plaintext
+    # environment variables
+    # Spotify API credentials
+    REDIRECT_URI="http://example.com"
+    CLIENT_ID=your_client_id
+    CLIENT_SECRET=your_client_secret
+    ```
+&nbsp;
+#### Here is how:
+
+1. Go to your [Spotify for Developers Dashboard](https://developer.spotify.com/dashboard/).
+2. Log in to your Spotify account.
+3. Create an App.
+4. Go to 'Edit Settings'.
+5. Add 'http://example.com' to 'Redirect URIs'.
+   - Click 'Add'.
+6. Copy and paste 'Client ID' and 'Client Secret' to .env.
+7. Run `main.py`.
+   - If Spotify authentication was successful, you should see a Spotify page asking you to agree to their terms.
+8. Click 'Agree'.
+9. Copy the entire URL and paste it into the prompt of your IDE.
+10. Close and restart your IDE.
+
+
+## Usage
+
+#### Run main.py
+  
+ ```bash
+ python main.py
+ ```
 
 ## Audio Features
 

@@ -12,6 +12,7 @@ setup(
         'umap-learn==0.5.5',
         'plotly==5.18.0',
         'music-tag==0.4.3',
+        'kaleido==0.2.1'
     ],
     entry_points={
         'console_scripts': [
